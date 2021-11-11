@@ -1,0 +1,33 @@
+{
+  "name": "doggo-github-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.1.0",
+    "@mui/material": "^5.1.0",
+    "axios": "^0.24.0",
+    "next": "^12.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-vertical-timeline-component": "^3.5.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.4"
+  },
+  "devDependencies": {
+    "postcss": "^8.3.11",
+    "postcss-nested": "^5.0.6",
+    "prettier": "^2.4.1"
+  }
+}

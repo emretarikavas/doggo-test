@@ -1,0 +1,46 @@
+
+.cardContent {
+    padding: 20px;
+    position: fixed;
+    display: grid;
+    grid-template-rows: 3fr repeat(4, 1fr);
+    width: 320px;
+    justify-content: center;
+    border: 1px solid #bbbb;
+    color: #fff;
+    background-color: #333333;
+    border-radius: 3px;
+    margin: 0 20px;
+
+    img {
+        margin: 20px auto;
+        border-radius: 50%;
+    }
+
+    .iconContainer {
+        display: flex;
+
+
+        p {
+            margin-left: 5px;
+        }
+
+    }
+
+}
+
+.notFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .cardContent {
+        position: relative;
+        margin: 50px auto;
+    }
+}

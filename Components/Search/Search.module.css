@@ -1,0 +1,42 @@
+.searchContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+
+    .formContainer {
+        display: flex;
+
+
+        .searchBox {
+
+            height: 50px;
+            display: flex;
+            justify-content: center;
+
+            input.searchInput, textarea {
+                width: 400px;
+                color: #bbbbbb;
+                background-color: #333333;
+                padding: 20px;
+                border-radius: 3px;
+                font-size: 18px;
+                outline: 0;
+            }
+
+
+        }
+
+
+        .btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 3px;
+            color: #333333;
+            background-color: #bbbbbb;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+    }
+}
